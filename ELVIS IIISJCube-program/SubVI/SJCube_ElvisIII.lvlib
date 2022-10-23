@@ -4,18 +4,25 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Basic Steps" Type="Folder">
 		<Item Name="1. EncoderTest.vi" Type="VI" URL="../1. EncoderTest.vi"/>
 		<Item Name="2. MotorTest.vi" Type="VI" URL="../2. MotorTest.vi"/>
 		<Item Name="3. PositionControlTest.vi" Type="VI" URL="../3. PositionControlTest.vi"/>
+		<Item Name="3.1 PositionControlTest (Geared).vi" Type="VI" URL="../3.1 PositionControlTest (Geared).vi"/>
+		<Item Name="3.2 VelocityControlTest (Geared).vi" Type="VI" URL="../3.2 VelocityControlTest (Geared).vi"/>
 	</Item>
 	<Item Name="SJCube Exp." Type="Folder">
 		<Item Name="4. SJCubeRunExp.vi" Type="VI" URL="../4. SJCubeRunExp.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="gearedMotorVelControl (SubVI).vi" Type="VI" URL="../gearedMotorVelControl (SubVI).vi"/>
+		<Item Name="gearedMotorPosControl (SubVI).vi" Type="VI" URL="../gearedMotorPosControl (SubVI).vi"/>
 		<Item Name="motorPosControl (SubVI).vi" Type="VI" URL="../motorPosControl (SubVI).vi"/>
 		<Item Name="motorPwm.vi" Type="VI" URL="../motorPwm.vi"/>
 		<Item Name="readMotorEnc.vi" Type="VI" URL="../readMotorEnc.vi"/>
+		<Item Name="readGearedMotorEnc.vi" Type="VI" URL="../readGearedMotorEnc.vi"/>
 		<Item Name="readStickEnc.vi" Type="VI" URL="../readStickEnc.vi"/>
 	</Item>
+	<Item Name="PendulumState.ctl" Type="VI" URL="../PendulumState.ctl"/>
 </Library>
